@@ -198,12 +198,9 @@ the amount of mobile video uploaded to Photobucket's video sharing website (14$\
 Proliferation of such mobile devices with video capture capability has enabled users to capture video of their life events such
 as concerts, parades, outdoor performances, etc, and socially share
 them with friends and public as it happens. Videos recorded by
-a single user at such events are shot from a limited range of angles and distances from the performance stage, as an attendee typically has limited mobility (e.g., constraint by seating arrangement).
-The recorded video can be monotonous and uninteresting. Furthermore, videos recorded are typically short (in the order of minutes
+a single user at such events are shot from a limited range of angles and distances from the performance stage, as an attendee typically has limited mobility (e.g., constraint by seating arrangement).The recorded video can be monotonous and uninteresting. Furthermore, videos recorded are typically short (in the order of minutes
 or tens of minutes), due to tired arms or power constraint of mobile
-devices. There are, however, likely to have more than one users
-recording the same performance from different angles at the same
-time, especially at a well-attended performance. 
+devices. 
 
 These recorded and shared video clips of the same performance
 can be cut and joined together to produce a new \textit{mashup} video,
@@ -339,8 +336,7 @@ and speaker tracking. Similar approach is taken by Cutler et al. \cite{6}
 in a meeting scenario where camera that shows the current speaker
 is selected. Ranjan et al. \cite{12} use face tracking and audio analysis to show the close-up of the person talking. Since performers
 play more important role than speakers in live concerts, a speaker
-based selection is not appropriate. Further, the faces are generally
-far from the camera which cannot be detected. Therefore, face detection is not a reliable basis to select videos.
+based selection is not appropriate.
 
 Al-Hames et al.\cite{3} extends the camera selection work to include
 the motion features. We do not use motion features in our framework because both performers and audience generate continuous
@@ -390,7 +386,7 @@ through learning for online video selection for live performances.
 In this section, we first enumerate the design principles that we
 have followed in the development of MoViMash and then describe
 the framework. After an overview of MoViMash, we focus on in-
-dividual components.
+dividual components.Its is an great framework.
 
 \subsection{Design Principles}
 The end goal of the MoViMash is to produce a mashup that users
@@ -427,7 +423,7 @@ edited videos.
 \end{itemize}.
 The above mentioned design principles are met in our framework
 through various quality metrics and video selection/filtering phases,
-as described in the following section.
+as described in the following section.This was all for today.
 
 \subsection{Framework}
 At every time instant, we have a number of videos to choose
@@ -463,8 +459,7 @@ is generally selected for longer time.
 \end{enumerate}
 While filtering and selection phase ensure view and video quality, the classification and diversity ensure that we select videos
 recorded with different angles and viewing distances to provide a
-complete and interesting coverage of the performance. We now
-describe each component of the framework in detail.
+complete and interesting coverage of the performance. 
 
 \subsection{View Quality}
 The view quality is measured in terms of three characteristics:occlusion, shakiness, and camera tilt. The details of measurement
@@ -897,7 +892,7 @@ framework produces a mashup with better view quality and diversity than earlier 
 human-edited versions of mashups. The dataset consists of video
 recordings of four performances. For each performance, we create three mashups: (1) using proposed framework (MoViMash) (2)
 based on ranking average of shakiness, diversity, and video quality only (VQ-Only) (3) by human editor with editing experience (HEdited). Users are asked to rate the quality of all three versions of
-mashup.
+mashup.The evaluation is done.
 
 \subsection{Dataset}
 The main application of the proposed framework is to combine
@@ -908,7 +903,7 @@ were not present at the performance. All the performances happened during the ni
 common resolution and synchronized before generating the mashups.
 In this work, we synchronized the videos manually as our main focus is on video selection. The issue of automatic synchronization is
 being researched separately \cite{14}. The details of the performances
-and video recordings are given in the Table 2. Figure 6 shows selected frames for each performance.
+and video recordings are given in the Table 2. Figure 6 shows selected frames for each performance.Thats all for dataset.
 \begin{table}
 \centering
 \caption{User study questions}
@@ -1033,7 +1028,7 @@ cost. The enhanced diversity model requires more memory for storing the history 
 complexity in terms of the number of pixels in the image. Therefore, individual components of the framework could be enabled or
 disabled depending on the quality of the candidate videos. For example, if the videos are taken from the stand-mounted cameras,
 shakiness calculation can be omitted. Furthermore, to make the
-system scalable, we can process downscaled images as the video resolution is not critical for the current system components.
+system scalable, we can process downscaled images as the video resolution is not critical for the current system components.End of discussion.
 
 \section{CONCLUSIONS \& FUTURE WORK}
 In this paper, we have proposed and validated an online video
@@ -1059,9 +1054,7 @@ output mashup quality. As current mobiles are capable of recording full HD video
 mashup using zoomable video techniques \cite{11}. Further, a human
 director can only compare a limited number of videos at a time.
 A powerful computer, however, can process and compare a large
-number of videos simultaneously. Therefore, in the future we want
-to study the impact of the number of videos on the quality of the
-final mashup.
+number of videos simultaneously.
 
 %ACKNOWLEDGMENTS are optional
 \section*{Acknowledgment}
